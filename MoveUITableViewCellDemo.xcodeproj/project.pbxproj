@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					E1D2A8AE1CC0841C000317D7 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7YD6YGGJZ5;
 					};
 				};
 			};
@@ -261,9 +262,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoveUITableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.MoveUITableViewCellDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.sss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -272,9 +275,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoveUITableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.MoveUITableViewCellDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.sss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
